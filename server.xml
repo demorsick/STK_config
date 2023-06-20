@@ -51,10 +51,10 @@
     <track-voting value="true" />
 
     <!-- Timeout in seconds for selecting karts and (or) voting for tracks in server, you may want to use a lower value if you have track-voting off. -->
-    <voting-timeout value="30" />
+    <voting-timeout value="5" />
 
     <!-- Timeout in seconds for validation of clients in wan, currently stk will use the stk-addons server to share AES key between the client and server. -->
-    <validation-timeout value="20" />
+    <validation-timeout value="10" />
 
     <!-- By default WAN server will always validate player and LAN will not, disable it to allow non-validated player in WAN. -->
     <validating-player value="true" />
@@ -63,13 +63,13 @@
     <firewalled-server value="true" />
 
     <!-- Enable to allow IPv6 connection if you have a public IPv6 address. STK currently uses dual-stack mode which requires server to have both IPv4 and IPv6 and listen to same port, firewalled-server will be disabled so you need to make sure this server has port-forwarding configured properly if needed. -->
-    <ipv6-server value="false" />
+    <ipv6-server value="true" />
 
     <!-- No server owner in lobby which can control the starting of game or kick any players. -->
     <owner-less value="false" />
 
     <!-- Time to wait before entering kart selection screen if satisfied min-start-game-players below for owner less or ranked server. -->
-    <start-game-counter value="60" />
+    <start-game-counter value="30" />
 
     <!-- Clients below this value will be rejected from joining this server. It's determined by number of official karts in client / number of official karts in server -->
     <official-karts-threshold value="1" />
@@ -93,7 +93,7 @@
     <ranked value="false" />
 
     <!-- If true, the server owner can config the difficulty and game mode in the GUI of lobby. This option cannot be used with owner-less or grand prix server, and will be automatically turned on if the server was created using the in-game GUI. The changed difficulty and game mode will not be saved in this config file. -->
-    <server-configurable value="false" />
+    <server-configurable value="true" />
 
     <!-- If true, players can live join or spectate the in-progress game. Currently live joining is only available if the current game mode used in server is FFA, CTF or soccer, also no addon karts will be available for players to choose, and official-karts-threshold will be made 1.0. -->
     <live-players value="true" />
@@ -165,6 +165,6 @@
     <ip-geolocation-table value="ip_mapping" />
 
     <!-- If true this server will auto add / remove AI connected with network-ai=x, which will kick N - 1 bot(s) where N is the number of human players. Only use this for non-GP racing server. -->
-    <ai-handling value="false" />
+    <ai-handling value="true" />
 
 </server-config>
