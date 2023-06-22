@@ -50,7 +50,7 @@ git clone https://github.com/demorsick/STK_config.git
 -------------------
 
 ## running the server
-Start sthe server:
+Start sthe server(`nohup -- &` let's you close the terminal and the process will still go in background):
 ```
 sudo nohup ./bin/supertuxkart --server-config=server.xml --network-console &
 ```
