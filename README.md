@@ -1,5 +1,5 @@
 # STK_config
-## Installation
+## INSTALLATION
 Install dependencies:
 ```bash
 sudo apt install wget git subversion make build-essential cmake pkg-config zlib1g-dev libcurl4-openssl-dev libssl-dev
@@ -47,7 +47,7 @@ Download server config:
 git clone https://github.com/demorsick/STK_config.git
 ```
 
-## running the server
+## RUNNING THE SERVER
 Start sthe server(`nohup ...... &` let's you close the terminal and the process will still go in background):
 ```
 sudo nohup ./bin/supertuxkart --server-config=server.xml --network-console &
