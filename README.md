@@ -45,6 +45,8 @@ sudo ufw allow 2759
 Download server config:
 ```
 git clone https://github.com/demorsick/STK_config.git
+cd STK_config
+mv server.xml ..
 ```
 
 ## RUNNING THE SERVER
