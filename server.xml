@@ -31,7 +31,7 @@
     <server-max-players value="30" />
 
     <!-- Password for private server, leave empty for a public server. -->
-    <private-server-password value="NoBloat69" />
+    <private-server-password value="" />
 
     <!-- Message of today shown in lobby, you can enter encoded XML words here or a file.txt and let STK load it. -->
     <motd value="
@@ -51,7 +51,7 @@
     <track-voting value="true" />
 
     <!-- Timeout in seconds for selecting karts and (or) voting for tracks in server, you may want to use a lower value if you have track-voting off. -->
-    <voting-timeout value="5" />
+    <voting-timeout value="20" />
 
     <!-- Timeout in seconds for validation of clients in wan, currently stk will use the stk-addons server to share AES key between the client and server. -->
     <validation-timeout value="10" />
