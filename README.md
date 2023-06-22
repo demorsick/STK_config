@@ -47,6 +47,7 @@ Download server config:
 git clone https://github.com/demorsick/STK_config.git
 cd STK_config
 mv server.xml ..
+cd ..
 ```
 
 ## RUNNING THE SERVER
