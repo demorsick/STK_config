@@ -44,7 +44,7 @@ sudo ufw allow 2759
 
 Download server config:
 ```
-wget -O server.xml https://raw.githubusercontent.com/1ilir0lika/STK_config/main/server.xml
+wget -O server.xml https://raw.githubusercontent.com/demorsick/STK_config/main/server.xml
 ```
 
 ## RUNNING THE SERVER
