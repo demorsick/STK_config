@@ -35,11 +35,10 @@
 
     <!-- Message of today shown in lobby, you can enter encoded XML words here or a file.txt and let STK load it. -->
     <motd value="
- Chat: https://t.me/+GBuvRpQrLvBhYTRk
- Bot: @segnalazioni_demoriste_bot
- Discord: https://discord.gg/usjwaMdKz4
- Network: @demorismo
- Sito: https://demorianesimo.org" />
+        The winners of this tournament will be displayed in the hall of fame page of our site -> https://demorianesimo.org
+        Voice chat -> https://t.me/demorianesimo
+        Discord ->  https://discord.gg/usjwaMdKz4
+        " />
 
     <!-- If this value is set to false, the server will ignore chat messages from all players. -->
     <chat value="true" />
