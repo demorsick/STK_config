@@ -30,7 +30,7 @@ make -j2
 
 Change the binary's path to make it a command:
 ```
-sudo mv /bin/supertuxkart /usr/bin/
+sudo mv bin/supertuxkart /usr/bin/
 ```
 
 Log in to SuperTuxKart Online:
